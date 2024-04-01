@@ -8,6 +8,7 @@
 <body>
     <a href="/"> Página Principal</a>
     <a href="/aluno"> Página do Aluno</a>
+    <a href="/professor"> Página do professor</a>
 
     {{ $slot }}
 
