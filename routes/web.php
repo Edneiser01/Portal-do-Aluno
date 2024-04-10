@@ -8,4 +8,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-route::resource ('/turma', TurmaController::class );
+Route::get('/turma', [TurmaController::class, 'index']) -> name('turma.index'); 
+
+Route::get('/turma/create', [TurmaController::class, 'create']) -> name('turma.create');
+
+Route::post('/turma', [TurmaController::class, 'store']) -> name('turma.store');
+
+Route::get('/turma/{id}', [TurmaController::class, 'show']) -> name('turma.show');
+
+Route::get('/turma/{id}/edit', [TurmaController::class, 'edit']) -> name('turma.edit');
+
+Route::put('/turma/{id}', [TurmaController::class, 'update']) -> name('turma.update');
+
+Route::delete('/turma/{id}', [TurmaController::class, 'destroy']) -> name('turma.destroy');
+
+

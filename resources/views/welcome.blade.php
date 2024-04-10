@@ -7,6 +7,7 @@
     <title>Portal do Aluno</title>
 </head>
 <body>
-    <h1>Olá Mundo</h1>
+    <h1>BEM VINDO AO PORTAL DO ALUNO</h1>
+    <a href="{{ route('turma.create')}}"> Criar nova turma</a>
 </body>
 </html>
