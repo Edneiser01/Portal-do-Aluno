@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"> 
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>@yield('title') </title>
@@ -46,7 +46,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Portal Do Aluno</span>
+        <span class="d-none d-lg-block">Portal Do Aluno11</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
