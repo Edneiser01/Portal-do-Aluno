@@ -5,8 +5,15 @@ use Illuminate\Routing\Route as RoutingRoute;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('aluno');
 });
+Route::get('/Professor', function () {
+    return view('professor');
+});
+Route::get('/admin', function () {
+    return view('admin');
+});
+
 
 Route::get('/turma', [TurmaController::class, 'index']) -> name('turma.index'); 
 
