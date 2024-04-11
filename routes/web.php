@@ -13,7 +13,9 @@ Route::get('/Professor', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
-
+Route::get('/admin', function () {
+    return view('admin');
+});
 
 Route::get('/turma', [TurmaController::class, 'index']) -> name('turma.index'); 
 
